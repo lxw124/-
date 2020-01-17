@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/detail",
+    "pages/User/user",
+    "pages/User/register",
+    "pages/User/login",
+    "pages/index1/index",
+    "pages/car/Car",
+    "pages/buy/Buy",
+    "components/Head/Head"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "当当商城"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/1.png",
+        "selectedIconPath": "./images/2.png"
+      },
+      {
+        "pagePath": "pages/index1/index",
+        "text": "分类",
+        "iconPath": "./images/3.png",
+        "selectedIconPath": "./images/4.png"
+      },
+      {
+        "pagePath": "pages/buy/Buy",
+        "text": "值得买",
+        "iconPath": "./images/6.png",
+        "selectedIconPath": "./images/5.png"
+      },
+      {
+        "pagePath": "pages/car/Car",
+        "text": "购物车",
+        "iconPath": "./images/8.png",
+        "selectedIconPath": "./images/7.png"
+      },
+      {
+        "pagePath": "pages/User/user",
+        "text": "我的当当",
+        "iconPath": "./images/10.png",
+        "selectedIconPath": "./images/9.png"
+      }
+    ]
+  }
+}

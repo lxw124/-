@@ -1,0 +1,10 @@
+<view class="head">
+<view  wx:for="{{list}}" wx:key="item">
+<text>{{item.text}}</text>
+<image src="{{item.src}}"/>
+</view>
+<view wx:for="{{pic}}" wx:key="item">
+<image src="{{item.src}}"/>
+<text>{{item.text}}</text>
+</view>
+</view>

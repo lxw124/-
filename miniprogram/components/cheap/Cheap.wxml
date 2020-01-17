@@ -1,0 +1,16 @@
+<view class="cheap">
+<text class='title'>促销专场</text>
+<view wx:for="{{list}}" class="pic" wx:key="item">
+<text>{{item.text}}</text>
+<image src="{{item.src}}"/>
+</view>
+</view>
+<view class="book" wx:for="{{buy}}" wx:key="item">
+<text class="num">{{item.book}}</text>
+<view class="list">
+<image src="{{item.src}}" class="child"/>
+<text class='name'>{{item.text}}</text>
+<text class="price">{{item.price}}</text>
+</view>
+<image src="{{item.car}}" class="car"/>
+</view>

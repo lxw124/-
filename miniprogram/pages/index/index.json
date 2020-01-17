@@ -1,0 +1,8 @@
+{
+  "usingComponents": {"Pic":"/components/Pic/pic",
+    "Book":"/components/Book/Book",
+    "Shop":"/components/shop/Shop",
+    "Store":"/components/store/Store",
+    "List":"/components/List/List"
+  }
+}

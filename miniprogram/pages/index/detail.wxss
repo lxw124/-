@@ -1,0 +1,133 @@
+.car{
+    position: relative;
+    width:100vw;
+    height:100vh;
+}
+.item{width:100%;
+      height:40vh;
+}
+.item>image{width:100%;
+            height:100%;
+}
+.shop{width:130rpx;
+      height:35rpx;
+      display: inline-block;
+      background-color:rgb(226,50,85);
+      text-align: center;
+      line-height: 35rpx;
+      color:white;
+      border-radius: 2rpx;
+}
+.top{width:500rpx;
+    height:50rpx;
+    margin-left:60rpx;
+}
+.introduce{width:600rpx;
+          height:30rpx;
+          display: block;
+          margin-left:60rpx;
+          font-size:20rpx;
+          color:darkgrey;
+}
+.title{margin-left:10rpx;}
+.price{
+      margin-left:85%;
+      display:block;
+      font-size:30rpx;
+      color:gold;
+
+}
+.cheap{width:100%;
+      height:60rpx;
+      margin-top:30rpx;
+      background-color: white;
+      color:rgb(255,70,60);
+}
+.cheap>text{
+  font-size:18rpx;
+  display: inline-block;
+  margin-left:50rpx;
+  width:80rpx;
+  height:30rpx;
+  text-align: center;
+  line-height: 30rpx;
+}
+.sub{background-color: rgb(255,70,60);
+    color: white
+}
+.buy{
+   
+    position: relative;
+    margin-left:100rpx;
+    margin-top:30rpx;
+    width:450rpx;
+    height:40rpx;
+}
+#sub{position: absolute;
+    left:100rpx;
+}
+#add{position: absolute;
+    left:300rpx;
+}
+.buy>image{width:80rpx;
+          height:50rpx;
+          display: inline-block;
+}
+.buy>input{
+          position: absolute;
+          width:100rpx;
+          height:40rpx;
+          text-align: center;
+          top:0;
+          left:185rpx;
+          background-color: white;
+}
+.num{
+  position: absolute;
+  top:0;
+  display:inline-block;
+}
+.detail{
+      
+      width:100%;
+      height:50rpx;
+      margin-top:70rpx;
+      background-color: white;
+      overflow: hidden;
+}
+.text{  
+            display: inline-block;
+            width:120rpx;
+            height:100%;
+            font-size:20rpx;
+            line-height: 50rpx;
+            margin-left:50rpx;
+}
+.pointer{
+        margin-left:70%;
+        font-size:20rpx;
+        display: inline-block;
+}
+.bottom{width:100%;
+        height:80rpx;
+        position: fixed;
+        bottom:0;
+}
+.quickly{
+        float:right;
+        width:200rpx;
+        height:100%;
+        background-color: red;
+        text-align: center;
+        color: white;
+        line-height: 80rpx;
+}
+.addcar{
+      float:right;
+      width:200rpx;
+      height:100%;
+      background-color: yellow;
+     text-align: center;
+      color:white;
+      line-height: 80rpx;
+}

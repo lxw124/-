@@ -1,0 +1,48 @@
+<view class="user">
+<text class="btn" bindtap="register" wx:if="{{show}}">注册/登录</text>
+<view wx:else class="person">
+<image src="./image/17.png"></image>
+<text id="user">{{username}}</text>
+</view>
+<image src="./image/1.png"/>
+</view>
+<view class='list'>
+<view>
+收藏的藏品
+</view>
+<view>
+关注的店铺
+</view>
+<view>
+我的足迹
+</view>
+</view>
+<view class="my">
+<image src="./image/11.png"></image>
+<text class="buys">我的订单</text>
+<text class="all">查看全部购买商品></text>
+<view class='pic'>
+<view wx:for="{{list}}" class='product' wx:key="item">
+<image src="{{item.src}}"/>
+<text class="products">{{item.text}}</text>
+</view>
+
+</view>
+</view>
+<view class="nav">
+<image src="./image/5.png"></image>
+<text class="buys">会员中心</text>
+<text class='alls'>></text>
+</view>
+<view class="us">
+<view wx:for="{{my}}" wx:key="item">
+<image src="{{item.src}}"></image>
+<text class="buys">{{item.text}}</text>
+<text class="alls">></text>
+</view>
+<view wx:if="{{!show}}" bindtap="out">
+<image src="./image/11.png"/>
+<text class="buys">退出登录</text>
+<text class="alls">></text>
+</view>
+</view>

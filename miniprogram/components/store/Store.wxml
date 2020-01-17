@@ -1,0 +1,19 @@
+<view class="store">
+<image src="./image/1.png" class="top"></image>
+<view class="text">
+<text>当当书城</text>
+<text class="pointer">></text>
+<text>电子书</text>
+<text class="pointer">></text>
+<text>网络文学</text>
+<text class="pointer">></text>
+</view>
+<image src="./image/2.png" class="pic"/>
+<view class="book">
+<view wx:for="{{list}}" wx:key="item">
+<text class="read">{{item.text}}</text>
+<text class="small">{{item.small}}</text>
+<image src="{{item.src}}"/>
+</view>
+</view>
+</view>

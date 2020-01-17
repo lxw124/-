@@ -1,0 +1,5 @@
+{
+  "usingComponents": {"Head":"/components/Head/Head",
+                      "Cheap":"/components/cheap/Cheap"
+  }
+}

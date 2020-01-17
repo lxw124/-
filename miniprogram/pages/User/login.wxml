@@ -1,0 +1,25 @@
+<view class="nav">
+<image class="img1" src="./image/14.png" bindtap="back"/>
+<text class="login">当当登录</text>
+<image class="img2" src="./image/13.png"/>
+</view>
+<view class="logins">
+<view class="user">
+<form bindsubmit="submit">
+<text>账号密码登录</text>
+<view class="list">
+<image src="./image/15.png"/>
+<input type="text" placeholder="请输入用户名" name="username"/>
+</view>
+<view class="list">
+<image src="./image/16.png"/>
+<input type="password" placeholder="请输入密码" name="password"/>
+</view>
+<button form-type="submit">登录</button>
+</form>
+<view class="register">
+<text class="reg1">忘记密码?</text>
+<text class='reg2' bindtap="register">立刻注册</text>
+</view>
+</view>
+</view>

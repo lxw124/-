@@ -1,0 +1,6 @@
+<view class="pic">
+<li wx:for="{{book}}" wx:key="item">
+<image  src="{{item.src}}" mode="aspectFit"/>
+<text>{{item.text}}</text>
+</li>
+</view>

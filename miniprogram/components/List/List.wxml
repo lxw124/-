@@ -1,0 +1,11 @@
+<view class="head">
+<text class="pointer">√</text>
+<text>根据您的偏好猜您可能喜欢</text>
+</view>
+<view class="list">
+<view wx:for="{{list}}" wx:key="item" class="img">
+<image src="{{item.src}}" bindtap="detail" data-id="{{index}}"/>
+<text>{{item.text}}</text>
+<text class="price">{{item.price}}</text>
+</view>
+</view>

@@ -1,0 +1,12 @@
+<view class="show">
+<view class="nav">
+<image src="./1.png"></image>
+<input type="text"/>
+<image src="./2.png"></image>
+</view>
+<Pic/>
+<Book/>
+<Shop/>
+<Store/>
+<List/>
+</view>

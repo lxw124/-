@@ -1,0 +1,23 @@
+<view class="nav">
+<image class="img1" src="./image/14.png" bindtap="back"/>
+<text class="registers">当当注册</text>
+<image class="img2" src="./image/13.png"/>
+</view>
+<view class="register">
+<view class="user">
+<text>新用户注册</text>
+<form bindsubmit="register">
+<view class="list">
+<image src="./image/15.png"/>
+<input type="text" placeholder="请输入用户名" name="username"/>
+</view>
+<view class="list">
+<image src="./image/16.png"/>
+<input type="password" placeholder="请输入密码" name="password"/>
+</view>
+<button form-type="submit">注册</button>
+</form>
+</view>
+
+
+</view>

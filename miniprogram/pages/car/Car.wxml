@@ -1,0 +1,13 @@
+<view class="car" wx:if="{{show}}">
+<image src="./image/1.jpg"></image>
+<button bindtap="get">逛一逛</button>
+</view>
+<view class="car" wx:else>
+<text class='buy'>我的订单</text>
+<view wx:for="{{list}}" class="list">
+<image src="{{item.data.src}}"></image>
+<text class="num">数量:{{item.num}}</text>
+<button class="btn" bindtap="delete" data-shop="{{item.id}}">删除商品</button>
+</view>
+<text>总价:{{sum}}元</text>
+</view>

@@ -1,0 +1,15 @@
+.head{width:750rpx;
+      height:300rpx;
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      color:crimson;
+}
+.head>view{
+  margin-left:10rpx;
+  height:150rpx;}
+.head>text{font-size:20rpx;
+          text-align:center;
+}
+image{width:80%;
+           height:120rpx;
+}

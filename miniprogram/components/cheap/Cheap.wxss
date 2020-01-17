@@ -1,0 +1,74 @@
+.cheap{width:100%;
+      height:800rpx;
+      margin-top:30rpx;
+      background-color:rgb(247,135,133);
+}
+.title{color:white;
+      font-weight: bold;
+      text-align: center;
+      font-size:30rpx;
+      display: block;
+      width:100%;
+  }
+.pic{display: inline-block;
+    width:30%;
+    height:340rpx;
+    margin-left:22rpx;
+    background-color:white;
+    border-radius: 10rpx; 
+}
+.pic>image{
+  width:80%;
+  display: block;
+  margin:20rpx auto;
+  height:260rpx;
+}
+.pic>text{
+  font-size:20rpx;
+  width:70%;
+  display: block;
+  margin:auto;
+  height:40rpx;
+  text-align: center;
+  color:rgb(188,143,243);
+}
+
+.buy{width:100%;
+    height:350rpx;
+}
+.num{width:50%;
+    font-size:20rpx;
+    height:24rpx;
+    text-align: center;
+    line-height: 24rpx;
+    color:white;
+    background-color:rgb(247,135,133);
+    border-bottom-right-radius: 10rpx;
+}
+
+.child{width:200rpx;
+      height:200rpx;
+      vertical-align: top;
+}
+.car{width:30rpx;
+    float:right;
+    height:30rpx;
+    margin-right:20rpx;
+    border-radius: 4rpx;
+    border:1rpx solid darkgray;
+    display: block;
+}
+.name{
+      width:300rpx;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      margin-left:20rpx;
+}
+.list{position: relative;}
+.price{position: absolute;
+      top:100rpx;
+      left:300rpx;
+}
+
+.book{margin-top:30rpx;}

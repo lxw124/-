@@ -1,0 +1,7 @@
+<view class="swiper">
+<swiper class="swiper">
+<swiper-item wx:for="{{list}}" wx:key="index" >
+  <image src="{{item}}" mode="widthFix" class="img"/>
+</swiper-item>
+</swiper>
+</view>

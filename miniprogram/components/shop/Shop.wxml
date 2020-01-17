@@ -1,0 +1,28 @@
+<view class="shop">
+<image class="today" src="./image/13.png"/>
+<image class="point" src="./image/14.png"></image>
+
+<view class="time">
+<text class="hour">{{hour}}</text>
+<text>时</text>
+<text class="hour">{{minute}}</text>
+<text>分</text>
+<text class="times">{{second}}</text>
+<text>秒</text>
+</view>
+
+<scroll-view scroll-x="true" style="width: 100%" class="scroll">
+ <view  class="scroll-view" wx:for="{{list}}" wx:key="item">
+ <image src="{{item.src}}" mode="scaleToFill"/>
+ <text class="introduce">{{item.text}}</text>
+ <text class="price">{{item.price}}</text>
+ <text class="prev">{{item.prev}}</text>
+ </view>
+ <view class="more">
+<image src="./image/11.png"></image>
+
+ </view>
+</scroll-view>
+
+<image src="./image/12.png" class="pic" />
+</view>

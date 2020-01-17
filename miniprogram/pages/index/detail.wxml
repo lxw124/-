@@ -1,0 +1,37 @@
+<view class="car">
+<view wx:for="{{list}}" wx:if="{{id==index}}" wx:key="item">
+<swiper class="item">
+<swiper-item wx:for="{{item.image}}" class="item" wx:key="item">
+<image src="{{item}}"/>
+</swiper-item>
+</swiper>
+<view class="top">
+<text class="shop">当当自营</text>
+<text class="title">{{item.title}}</text>
+</view>
+<text class="introduce">{{item.text}}</text>
+<text class="price">{{item.price}}</text>
+</view>
+<view class="cheap">
+<text>领券</text>
+<text class="sub">200减30</text>
+<text class="sub">0减3</text>
+<text class="sub">50减5</text>
+<text class="sub">200减20</text>
+</view>
+<view class="buy">
+<text class="num">数量:</text>
+<image src="./image/18.png" bindtap="sub" id="sub"></image>
+<input type="text" value="{{num}}" disabled="true"/>
+<image src="./image/19.png" bindtap="add" id="add"></image>
+</view>
+<view class="detail">
+<text class="text">图文详情</text>
+<text class="pointer">></text>
+</view>
+<view class="bottom">
+<view class="quickly" bindtap="buy">立即购买</view>
+<view class="addcar"bindtap="addcar">加入购物车</view>
+</view>
+
+</view>

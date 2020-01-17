@@ -1,0 +1,29 @@
+<view class="classify">
+<view class="list">
+<view wx:for="{{list}}" class="{{index==id?'select':''}}" 
+data-num="{{index}}"
+bindtap="change" wx:key="item">
+{{item}}
+</view>
+</view>
+<image src="./image/1.png" class="head"/>
+<view class="in1">
+<text class="text">进入当当书城></text>
+</view>
+<view class="ins2">
+<text class="text">进入童书馆></text>
+</view>
+<view class="book">
+<text class="titles">榜单</text>
+<view wx:for="{{book}}" class='books' wx:key="item">
+<image src="{{item.src}}"/>
+<text>{{item.text}}</text>
+</view>
+</view>
+<view class="{{flag?'camera':'cameras'}}" id="list">
+<text wx:for="{{text}}" wx:key="item">
+{{item}}
+</text>
+<text class="{{flag?'out':'outs'}}" bindtap="open" id='txt'>{{txt}}</text>
+</view>
+</view>

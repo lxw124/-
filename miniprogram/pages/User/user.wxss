@@ -1,0 +1,145 @@
+.user{position: relative; 
+      width:100%;
+      height:220rpx;
+      overflow: hidden;
+}
+.user>image{margin-top:-50rpx;
+            width:100%;
+            height:100%;
+}
+.btn{position: absolute;
+    top:70rpx;
+    color: white;
+    border:1rpx solid white;
+    left:300rpx;
+    border-radius:10rpx;
+    width:150rpx;
+    height:50rpx;
+    font-size:25rpx;
+    text-align: center;
+    line-height: 50rpx;
+}
+.list{width:100%;
+      height:140rpx;
+      margin-top:-30rpx;
+      display: flex;
+      background-color: white;
+      overflow: hidden;
+}
+.list>view{
+  
+  height:50%;
+  margin-top:20rpx;
+  text-align: center;
+  width:33%;}
+.pic{
+    position: absolute;
+    top:80rpx;
+    width:100%;
+    display: flex;
+    height:150rpx;
+}
+.my{position: relative;
+    width:100%;
+    margin-top:10rpx;
+    height:200rpx;
+    font-size: 20rpx;
+    background-color: white;
+}
+.pic image{width:50rpx;
+           height:50rpx;
+           display: block;
+           margin:auto;
+}
+.my>image{position: absolute;
+          left:10rpx;
+          top:10rpx;
+          width:50rpx;
+          height:50rpx;
+}
+.product{width:33%;
+        height:100%;
+}
+.buys{
+    position: absolute;
+    top:13rpx;
+    left:68rpx;
+    width:160rpx;
+    height:30rpx;
+    font-size:30rpx;
+}
+.all{
+    position: absolute;
+    top:10rpx;
+    right:3rpx;
+    width:200rpx;
+    height:30rpx;
+}
+.products{display:block;
+        width:100rpx;
+        height:40rpx;
+        margin:auto;
+        text-align: center;
+}
+
+.nav{
+    position: relative;
+    width:100%;
+    height:70rpx;
+    background-color:white;
+    margin-top:20rpx; 
+}
+.nav>image{
+          position: absolute;
+          top:5rpx;
+          left:15rpx;
+          width:50rpx;
+          height:50rpx;
+}
+.us view{
+  position: relative;
+  width:100%;
+  height:80rpx;
+}
+.us image{
+  position: absolute;
+          top:5rpx;
+          left:15rpx;
+          width:50rpx;
+          height:50rpx;
+}
+.alls{position: absolute;
+     top:7rpx;
+     right:10rpx;
+     font-size:30rpx;
+}
+
+.us{
+    width:100%;
+    height:470rpx;
+    margin-top:20rpx;
+    background-color: white;
+}
+
+.person{position: absolute;
+        width:100%;
+        height:80%;
+        
+}
+.person>image{display: inline-block;
+              width:110rpx;
+              height:110rpx;
+              margin-left:40rpx;
+              margin-top:30rpx;
+              border-radius:5rpx; 
+}
+#user{position: absolute;
+      top:30rpx;
+      left:190rpx;
+      color:white;
+      width:100rpx;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+     
+}
